@@ -12,7 +12,7 @@ class Passenger {
 	// Lesson 7 Activity 1
 //	public Passenger(String name, char gender, String nationality, String dateOfBirth, String[] passport) {
 //		this.name = name;
-//		this.gender = gender;
+//		this.gender = gender;d
 //		this.nationality = nationality;
 //		this.dateOfBirth = dateOfBirth;
 //		this.passport = passport;
