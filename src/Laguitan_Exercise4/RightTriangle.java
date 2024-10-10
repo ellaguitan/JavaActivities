@@ -9,7 +9,7 @@ public class RightTriangle extends Triangle{
 	}
 	
 	public double calculateArea() {
-		double area = this.getBase() * this.height;
+		double area = (super.getBase() * this.height) / 2;
 		return area;
 	}
 	
