@@ -24,7 +24,7 @@ public class DiscountCalculator {
 		
 		int discount = 0;
 		
-		System.out.print("Is a new Customer? (y/n): ");
+		System.out.print("\nIs a new Customer? (y/n): ");
 		boolean isNewCustomer = scanner.next().equalsIgnoreCase("y");
 		System.out.print("\nHas a Loyalty Card? (y/n): ");
 		boolean hasLoyaltyCard = scanner.next().equalsIgnoreCase("y");
