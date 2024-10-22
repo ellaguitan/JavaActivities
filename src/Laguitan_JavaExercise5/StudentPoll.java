@@ -9,8 +9,10 @@ import java.util.Scanner;
 public class StudentPoll {
 	private static File numbersFile = new File("numbers.txt");
 	private static File outputFile = new File("output.txt");
+	
 
 	public static void main(String[] args) throws IOException {
+		Formatter formatter = new Formatter(numbersFile);
 		int response = 0;
 		Scanner inpScnr = new Scanner(System.in);
 		
@@ -20,19 +22,28 @@ public class StudentPoll {
 			System.out.print("\nEnter survey response from 1-10: ");
 			response = inpScnr.nextInt();
 			
-			if (response > 10 && response <= 0) {
+			if (response > 10 || response <= 0) {
 				break;
 			}
 			
-			format(response);
+			System.out.println(response);		
+			
+			formatter.format("%d%n", response);	
 		} while (true);
 		
+		formatter.close();
+		
 		inpScnr.close();
-	}
-	
-	public static void format(int response) throws FileNotFoundException {
-		Formatter formatter = new Formatter(numbersFile);
-		formatter.format("%d\n", response);		
-	}
 
+		Scanner scn = new Scanner(numbersFile);
+		
+		Formatter outputFormatter = new Formatter(outputFile);
+		
+		while (scn.hasNextInt()) {
+			outputFormatter.format("%d%n", scn.nextInt());	
+		}
+		
+		outputFormatter.close();
+		scn.close();
+	}
 }
