@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.2">
+  <diagram name="Page-1" id="noaG1a4IbNoBQbK3EiRm">
+    <mxGraphModel dx="1026" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eTYcX_aMkCUe2x3F147_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-2" target="eTYcX_aMkCUe2x3F147_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-4" target="eTYcX_aMkCUe2x3F147_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-4" value="Create DnDCharacters swordsman, catalyst, and archer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-6" target="eTYcX_aMkCUe2x3F147_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-6" value="Print characterName, health, and damage of each DnDCharacter created" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-8" target="eTYcX_aMkCUe2x3F147_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-8" value="Call battleCharacters method passing two DnDCharacters" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-10" target="eTYcX_aMkCUe2x3F147_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-10" value="Print characterName and health of DnDCharacters passed (char1 and char2)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-13" target="eTYcX_aMkCUe2x3F147_-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="609.6666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-13" target="eTYcX_aMkCUe2x3F147_-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-13" value="char1.isAlive() &amp;amp;&amp;amp; char2.isAlive()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-15" target="eTYcX_aMkCUe2x3F147_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-15" value="Call attack method passing char2 as parameter with char1 as attacker" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-16" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="540" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-19" target="eTYcX_aMkCUe2x3F147_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-19" target="eTYcX_aMkCUe2x3F147_-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-19" value="char2.isAlive()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-21" target="eTYcX_aMkCUe2x3F147_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-21" value="Call attack method passing char2 as parameter with cha" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-22" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="860" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-24" target="eTYcX_aMkCUe2x3F147_-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="800" />
+              <mxPoint x="400" y="1050" />
+              <mxPoint x="40" y="1050" />
+              <mxPoint x="40" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-24" value="print char1 and char2&#39;s name and health" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-25" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="770" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-28" target="eTYcX_aMkCUe2x3F147_-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-28" target="eTYcX_aMkCUe2x3F147_-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-28" value="char1.isAlive()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="420" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-29" value="char1 wins the game" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-30" value="char2 wins the game" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-31" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="550" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-32" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="450" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-33" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-29" target="eTYcX_aMkCUe2x3F147_-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-30" target="eTYcX_aMkCUe2x3F147_-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-36" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-37" target="eTYcX_aMkCUe2x3F147_-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-37" value="Buff char2&#39;s Ability" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTYcX_aMkCUe2x3F147_-38" target="eTYcX_aMkCUe2x3F147_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTYcX_aMkCUe2x3F147_-38" value="Buff char1&#39;s Ability" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
