@@ -13,8 +13,9 @@ public class StudentPoll {
 
 	public static void main(String[] args) throws IOException {
 		Formatter formatter = new Formatter(numbersFile);
-		int response = 0;
 		Scanner inpScnr = new Scanner(System.in);
+		
+		int response = 0;
 		
 		System.out.println("WELCOME TO SURVEY RESPONSES");
 		
@@ -32,7 +33,6 @@ public class StudentPoll {
 		} while (true);
 		
 		formatter.close();
-		
 		inpScnr.close();
 
 		Scanner scn = new Scanner(numbersFile);
