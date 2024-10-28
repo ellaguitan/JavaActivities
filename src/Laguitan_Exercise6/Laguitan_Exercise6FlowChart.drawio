@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.2">
+  <diagram name="Page-1" id="Fx3sn1dTiRsyIHSL-7GU">
+    <mxGraphModel dx="855" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PDoCGigTHe3WOE6rbkGH-68" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="120" width="120" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="PDoCGigTHe3WOE6rbkGH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PDoCGigTHe3WOE6rbkGH-68" source="PDoCGigTHe3WOE6rbkGH-29" target="PDoCGigTHe3WOE6rbkGH-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDoCGigTHe3WOE6rbkGH-29" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="PDoCGigTHe3WOE6rbkGH-68">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDoCGigTHe3WOE6rbkGH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PDoCGigTHe3WOE6rbkGH-68" source="PDoCGigTHe3WOE6rbkGH-31" target="PDoCGigTHe3WOE6rbkGH-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PDoCGigTHe3WOE6rbkGH-31" value="Instantiate a FullTimeEmployee, a PartTimeEmplooyee, and a Contractor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PDoCGigTHe3WOE6rbkGH-68">
+          <mxGeometry y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDoCGigTHe3WOE6rbkGH-41" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="PDoCGigTHe3WOE6rbkGH-68">
+          <mxGeometry y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PDoCGigTHe3WOE6rbkGH-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PDoCGigTHe3WOE6rbkGH-68" source="PDoCGigTHe3WOE6rbkGH-63" target="PDoCGigTHe3WOE6rbkGH-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDoCGigTHe3WOE6rbkGH-63" value="Calculate pay for each Employee" style="whiteSpace=wrap;html=1;" vertex="1" parent="PDoCGigTHe3WOE6rbkGH-68">
+          <mxGeometry y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDoCGigTHe3WOE6rbkGH-65" value="Print pay for&amp;nbsp;&lt;div&gt;each Employee&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="PDoCGigTHe3WOE6rbkGH-68">
+          <mxGeometry y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDoCGigTHe3WOE6rbkGH-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PDoCGigTHe3WOE6rbkGH-68" source="PDoCGigTHe3WOE6rbkGH-65" target="PDoCGigTHe3WOE6rbkGH-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
