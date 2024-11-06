@@ -1,4 +1,4 @@
-package Laguitan_L16Activity2;
+package Laguitan_L17Activity1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -15,7 +15,8 @@ public class Main {
 	                    + "\n2. Display playlist"
 	                    + "\n3. Remove a song from playlist"
 	                    + "\n4. Play next song"
-	                    + "\n5. Exit");
+	                    + "\n5. Search artist"
+	                    + "\n6. Exit");
 	            
 			int choice = -1;
 	            
@@ -24,8 +25,8 @@ public class Main {
 	                
 	         	try {
 	         		choice = scanner.nextInt();
-	            	scanner.nextLine(); 
-	            	break;  
+	            	scanner.nextLine();
+	            	break;
 	            } catch (InputMismatchException e) {
 	            	System.out.println("Invalid input. Please enter a number between 1 and 5.");
 	            	scanner.nextLine(); 
@@ -53,6 +54,11 @@ public class Main {
 				playlist.displayNextSong();
 				break;
 			case 5:
+				System.out.print("Search for artist: ");
+				artist = scanner.nextLine();
+				playlist.searchSong(artist);
+				break;
+			case 6:
 				System.out.println("Exiting playlist.");
 				System.exit(0);
 			default:
