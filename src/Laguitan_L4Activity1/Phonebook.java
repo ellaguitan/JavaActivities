@@ -26,15 +26,15 @@ public class Phonebook {
                 System.out.print("Input Phone Number of Name #" + (temp + 1) + ": ");
                 try {
                     pNumber = Long.parseLong(scn.nextLine());
-//                    OutOfBoundDigitsException.validateDigits(pNumber);
+                    OutOfBoundDigitsException.validateDigits(pNumber);
                     phoneNumbers[temp] = pNumber;
                     break; // Exit loop if input is valid
                 } catch (NumberFormatException e) {
                     System.out.println("Invalid input! Only whole numbers are allowed.");
                 } 
-//                catch (OutOfBoundDigitsException e) {
-//                    System.out.println(e.getMessage());
-//                }
+                catch (OutOfBoundDigitsException e) {
+                    System.out.println(e.getMessage());
+                }
             }
             
             if (pName.equalsIgnoreCase("n/a")) {
