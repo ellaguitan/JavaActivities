@@ -1,6 +1,7 @@
 package Laguitan_L4Activity1;
 
 public class OutOfBoundDigitsException extends Exception {
+	
 	public OutOfBoundDigitsException(String message) {
 		super(message);
 	}
@@ -18,4 +19,5 @@ public class OutOfBoundDigitsException extends Exception {
 			throw new OutOfBoundDigitsException("Invalid phone number! Only 10-digit numbers are allowed.");
 		}
 	}
+	
 }
