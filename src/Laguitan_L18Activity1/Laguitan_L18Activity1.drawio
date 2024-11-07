@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
+  <diagram name="Page-1" id="f27eEGUtqqjmF-a6iisF">
+    <mxGraphModel dx="1027" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-1" target="RMEJpWai-Z8f-xLsF3Js-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="285" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-2" target="RMEJpWai-Z8f-xLsF3Js-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-2" value="Instantiate printer1 and printer1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-3" target="RMEJpWai-Z8f-xLsF3Js-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-3" value="Instantiate thread1 and thread2 with printer1 and printer1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-4" target="RMEJpWai-Z8f-xLsF3Js-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-4" value="start thread1&lt;div&gt;and thread2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-6" target="RMEJpWai-Z8f-xLsF3Js-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-6" target="RMEJpWai-Z8f-xLsF3Js-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-6" value="thread1 isAlive()?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-9" value="Display thread&amp;nbsp;&lt;div&gt;status as running&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="395" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-10" target="RMEJpWai-Z8f-xLsF3Js-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-10" target="RMEJpWai-Z8f-xLsF3Js-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-10" value="thread2 isAlive()?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-11" value="Display thread&amp;nbsp;&lt;div&gt;status as running&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="515" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-14" target="RMEJpWai-Z8f-xLsF3Js-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-14" value="terminate thread1&lt;div&gt;and thread2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="620" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-16" target="RMEJpWai-Z8f-xLsF3Js-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-16" target="RMEJpWai-Z8f-xLsF3Js-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-16" value="thread1 isAlive()?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-17" value="Display thread&amp;nbsp;&lt;div&gt;status as&amp;nbsp;&lt;/div&gt;&lt;div&gt;terminated&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="745" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-19" target="RMEJpWai-Z8f-xLsF3Js-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-19" value="thread2 isAlive()?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-20" value="Display thread&amp;nbsp;&lt;div&gt;status as&lt;/div&gt;&lt;div&gt;terminated&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="865" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-25" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="388" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-27" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="508" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-31" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="740" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-32" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="750" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-33" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="285" y="970" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RMEJpWai-Z8f-xLsF3Js-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RMEJpWai-Z8f-xLsF3Js-19" target="RMEJpWai-Z8f-xLsF3Js-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
