@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Page-1" id="kGCOHAegd0RLi990U1-4">
+    <mxGraphModel dx="1155" dy="2600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KMvlXvrrWa9y38zUxwV4-1" target="KMvlXvrrWa9y38zUxwV4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="-1040" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KMvlXvrrWa9y38zUxwV4-2" target="KMvlXvrrWa9y38zUxwV4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-2" value="instantiate object lock, task, and rTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KMvlXvrrWa9y38zUxwV4-3" target="KMvlXvrrWa9y38zUxwV4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-3" value="instantiate thread1 and thread2 with task and rTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KMvlXvrrWa9y38zUxwV4-4" target="KMvlXvrrWa9y38zUxwV4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-4" value="start thread1 and thread2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-5" value="terminate thread1 and thread 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KMvlXvrrWa9y38zUxwV4-7" target="KMvlXvrrWa9y38zUxwV4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-7" value="display messages" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-10" value="&lt;div&gt;End&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="-440" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMvlXvrrWa9y38zUxwV4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KMvlXvrrWa9y38zUxwV4-5" target="KMvlXvrrWa9y38zUxwV4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
